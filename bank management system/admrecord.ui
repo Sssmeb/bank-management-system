@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>admrecord</class>
+ <widget class="QDialog" name="admrecord">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>651</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>查找交易记录</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QComboBox" name="info_type">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <item>
+        <property name="text">
+         <string>按用户名查找</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>按管理员身份查找</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>按操作类型查找</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="le_info">
+       <property name="placeholderText">
+        <string>请输入对应信息</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btn_search">
+       <property name="text">
+        <string>搜索</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QTableView" name="record_msg"/>
+   </item>
+   <item>
+    <widget class="QPushButton" name="btn_cancel">
+     <property name="text">
+      <string>退出交易记录查询</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

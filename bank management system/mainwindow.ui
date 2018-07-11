@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1080</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1080</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1080</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>银行管理系统</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/new/prefix1/imaged/timg3.jpg);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1061</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Impact</family>
+      <pointsize>36</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::CustomContextMenu</enum>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>                    欢迎使用银行管理系统</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>360</y>
+      <width>110</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="text">
+     <string>管理员登陆</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>360</y>
+      <width>110</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="text">
+     <string>用户登陆</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>410</y>
+      <width>110</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="text">
+     <string>注册新用户</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1080</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="title">
+     <string>选择</string>
+    </property>
+    <addaction name="action"/>
+    <addaction name="separator"/>
+    <addaction name="action_3"/>
+    <addaction name="action_4"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="toolTip">
+     <string/>
+    </property>
+    <property name="title">
+     <string>帮助</string>
+    </property>
+    <addaction name="action_5"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action">
+   <property name="text">
+    <string>管理员登陆</string>
+   </property>
+   <property name="whatsThis">
+    <string/>
+   </property>
+  </action>
+  <action name="action_3">
+   <property name="text">
+    <string>用户登陆</string>
+   </property>
+  </action>
+  <action name="action_4">
+   <property name="text">
+    <string>注册新用户</string>
+   </property>
+  </action>
+  <action name="action_5">
+   <property name="text">
+    <string>搜索</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

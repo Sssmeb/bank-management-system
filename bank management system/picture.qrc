@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/new/prefix1/imaged">
+        <file alias="enterbackground">timg.jpg</file>
+        <file>timg3.jpg</file>
+    </qresource>
+</RCC>
